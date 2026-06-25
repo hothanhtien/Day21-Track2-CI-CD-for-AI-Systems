@@ -1,7 +1,8 @@
 mlflow
 scikit-learn
 pandas
-dvc[s3]
+dvc
+dvc-s3
 pathspec
 pytest
 fastapi
