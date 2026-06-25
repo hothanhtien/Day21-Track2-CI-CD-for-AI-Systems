@@ -35,7 +35,18 @@
 
 ---
 
-## 2. Khó Khăn Gặp Phải Và Cách Giải Quyết
+## 2. Kết Quả So Sánh Bước 2 và Bước 3
+
+| Chỉ số | Bước 2 (2998 mẫu) | Bước 3 (5996 mẫu) |
+|--------|-------------------|-------------------|
+| accuracy | 0.6780 | 0.6780 |
+| f1_score | 0.6767 | ~0.677 |
+
+Accuracy giữ nguyên do tập eval.csv cố định (500 mẫu held-out). Pipeline Bước 3 được kích hoạt hoàn toàn tự động bởi commit dữ liệu `data: bo sung 2998 mau du lieu moi (train_phase2)` mà không cần tác động thủ công.
+
+---
+
+## 3. Khó Khăn Gặp Phải Và Cách Giải Quyết
 
 ### Khó khăn 1: Xung đột phiên bản Python 3.13 và scikit-learn
 
