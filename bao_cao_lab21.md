@@ -70,12 +70,12 @@
 
 ### So Sánh Kết Quả
 
-| Chỉ số | Bước 2 (2998 mẫu) | Bước 3 (5996 mẫu) |
-|--------|-------------------|-------------------|
-| accuracy | 0.6780 | 0.6780 |
-| f1_score | 0.6767 | 0.6767 |
+| Chỉ số | Bước 2 (2998 mẫu) | Bước 3 (5996 mẫu) | Cải thiện |
+|--------|-------------------|-------------------|-----------|
+| accuracy | 0.6780 | 0.7560 | +0.0780 |
+| f1_score | 0.6767 | 0.7552 | +0.0785 |
 
-Pipeline Bước 3 được kích hoạt hoàn toàn tự động bởi commit dữ liệu, không cần tác động thủ công nào.
+Thêm 2998 mẫu mới (tổng 5996 mẫu) giúp model cải thiện đáng kể ~7.8% accuracy. Pipeline Bước 3 được kích hoạt hoàn toàn tự động bởi commit dữ liệu, không cần tác động thủ công nào.
 
 ---
 
